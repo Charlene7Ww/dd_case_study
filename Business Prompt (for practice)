@@ -1,0 +1,51 @@
+# **Business Prompt (for practice)**
+
+## Business Context
+
+You are a **Media Analytics Analyst** on DoorDash’s CPG Ads & Promotions team. Your team partners with CPG advertisers to help them understand how their campaigns perform, and to provide reco mmendations to improve customer experience and ROI.
+
+As part of a recent promotion initiative, DoorDash provided **discounts to customers** through CPG-sponsored campaigns. The goal was to drive more orders, improve customer satisfaction, and ideally increase Dasher (driver) engagement through better tips and delivery economics.
+
+You’ve been given a sample dataset of recent On-Demand orders. You’ve been asked to help the internal team evaluate the effectiveness of this promotion.
+
+1. Do discounts increase or decrease revenue (Net Revenue / AOV / GMV)?
+2. Do discounts affect customer behavior (new customer rate, refund rate, tipping)?
+3. Is there a relationship between delivery time and refund behavior?
+4. Are there regional differences that suggest a differentiated promotion strategy?
+
+## Dataset
+
+Each row represents a customer order. The columns include:
+
+- `order_id`
+- `order_placed_time`
+- `order_delivered_time`
+- `total_amount_usd`
+- `discount_applied_usd`
+- `tip_amount_usd`
+- `refunded_amount_usd`
+- `is_asap` (boolean: True = ASAP, False = Scheduled)
+- Other order-level metadata
+
+## Questions
+
+1. **Campaign Effectiveness** 
+   Do discounts increase or decrease revenue (Net Revenue / AOV / GMV)?  
+
+2. **Tipping Behavior** 
+   Does providing a discount influence customer tipping behavior?  
+
+3. **Operational Impact** 
+   Do longer delivery times correlate with higher refund rates?  
+
+4. **Recommendations** 
+   What would you suggest to improve future promotions?  
+
+## Deliverables
+
+- Executive Summary  
+- Key Insights with visuals  
+- Actionable Recommendations  
+- Optional: Tableau Dashboard / Jupyter Notebook  
+
+**Time Limit**: 48 hours
