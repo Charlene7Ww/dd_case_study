@@ -9,7 +9,7 @@ The dataset and prompt are adapted from an [open-source GitHub resource](https:/
 ## Methods
 - **Data Prep**: Cleaned data, constructed metrics (Net Revenue Proxy, refund flag, delivery times, tip rate).  
 - **Statistical Tests**: Welch’s t-test, Mann–Whitney U, Chi-square, Cohen’s d.  
-- **Behavioral Analysis**: Compared orders with vs. without discounts across revenue, tips, refunds, delivery time.  
+- **Correlation**: Pearson & Spearman, LOWESS smoothing for refund vs delivery time
 - **Segmentation**: Regional breakdown (San Jose, Palo Alto, Mountain View).  
 
 ## Key Results
