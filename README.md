@@ -37,4 +37,3 @@ The dataset and prompt are adapted from an [open-source GitHub resource](https:/
 - Net Revenue Proxy excludes marketing/ops costs, so ROI is approximate.  
 - External effects (competitor promos, seasonality) not captured.  
 
-## Repo Structure
